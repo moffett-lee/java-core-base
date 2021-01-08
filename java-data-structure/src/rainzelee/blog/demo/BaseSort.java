@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.Random;
 
 /**
- * @description:
+ * @description: 基类
  * @productName: java-core-base
  * @author: LYZ
  * @date: 2021/1/8 11:13
