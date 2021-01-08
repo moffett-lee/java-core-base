@@ -13,7 +13,6 @@ import java.util.Random;
 public abstract  class BaseSort {
     //排序数组长度
     private static int length = 10;
-
     public void printNums() {
         int[] nums = new int[length];
         Random random = new Random();
@@ -29,7 +28,6 @@ public abstract  class BaseSort {
         System.out.println("排序后：" + Arrays.toString(nums));
         System.out.println("耗时：" + (endTime - starTime) + "毫秒");
     }
-
 
     protected abstract void sort(int[] nums);
 }

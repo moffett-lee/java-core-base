@@ -8,15 +8,12 @@ package rainzelee.blog.demo;
  */
 public class ShellSort extends BaseSort {
 
-
-
     /**
      * 思路：
      *
      * 把数组分割成若干(h)个小组(一般数组长度length/2)，然后对每一个小组分别进行插入排序。每一
      * 轮分割的数组的个数逐步缩小，h/2->h/4->h/8，并且进行排序，保证有序。当h=1时，则数组排序完成。
      */
-
 
     @Override
     protected void sort(int[] nums) {
@@ -40,7 +37,6 @@ public class ShellSort extends BaseSort {
             gap /= 2;
         }
     }
-
 
     public static void main(String[] args) {
         ShellSort sort = new ShellSort();

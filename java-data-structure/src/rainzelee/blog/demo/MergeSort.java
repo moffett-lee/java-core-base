@@ -7,9 +7,6 @@ package rainzelee.blog.demo;
  * @date: 2021/1/8 13:41
  */
 public class MergeSort extends BaseSort {
-
-
-
     /**
      * 归并排序是采用分治法的典型应用，而且是一种稳定的排序方式，不过需要使用到额外的空间。
      *
