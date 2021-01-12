@@ -4,7 +4,7 @@ package rainzelee.blog.thread.demo;
  * @description: **实现Runnable接口创建线程**
  * @productName: java-core-base
  * @author: LYZ
- * @date: 2021/1/12 10:46
+ * @date: 2021/1/10 10:46
  */
  class RunnableDemo implements Runnable {
 
